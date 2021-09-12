@@ -1,0 +1,276 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Lemonmilk;
+}
+html {
+  scroll-behavior: smooth;
+}
+/*                                                           Utility Classes */
+h1{
+  font-size: 6rem;
+}
+h2{
+  font-size: 4rem;
+}
+h3{
+  font-size: 3rem;
+}
+h4{
+  font-size: 2rem;
+}
+a{
+  font-size: 1.5rem;
+}
+p{
+  font-size: 1.5rem;
+}
+/*                                                           Navabr */
+
+@font-face {
+  font-family: Lemonmilk;
+  src: url(LEMONMILK-Regular.otf);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(189, 189, 189, 0.541);
+  color: black;
+  position: fixed;
+  width: 100%;
+  text-transform: uppercase;
+  height: 80px;
+  font-family: Lemonmilk;
+  z-index: 2;
+}
+.left {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+.right {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+.right ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  display: flex;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  margin: 5px;
+  cursor: default;
+}
+.right li {
+  margin: 5px 30px;
+}
+.right li a {
+  font-size: 1.3rem;
+}
+
+
+/*                                              Section Home */
+.Home{
+  top: 0px;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+.HomeLeft{
+  margin-top: 100px;
+}
+.HomeLeft img{
+  height: 800px;
+}
+.HomeRightUp{
+  display: flex;
+}
+.margin1{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.HomeRight{
+  margin-right: 220px;
+  margin-top: 100px;
+}
+.HomeRightDown{
+  margin-top: 10px;
+}
+/*                                            section about */
+.About{
+  top: 0px;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(189, 189, 189);
+}
+.AboutRight img{
+  margin-top: 70px;
+  height: 700px;
+}
+.AboutLeft{
+  width: 850px;
+  margin-left: 120px;
+}
+.aboutpara{
+  margin-top: 20px;
+  text-align: justify;
+  font-size: 1.8rem;
+}
+/*                                         section work */
+.work{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+.dim{
+  height: 100vh;
+  width: 25vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.work1{
+  background: url(img/photo.jpg) no-repeat center center/cover;
+  clip-path: circle(20% at 50% 50%);
+  transition: clip-path 0.5s ease-in-out;
+}
+.work1:hover{
+  clip-path: circle(75%);
+}
+.work2{
+  background: url(img/civil.jpg) no-repeat center center/cover;
+  clip-path: circle(20% at 50% 50%);
+  transition: clip-path 0.5s ease-in-out;
+}
+.work2:hover{
+  clip-path: circle(75%);
+}
+.work3{
+  background: url(img/graphic.jpg) no-repeat center center/cover;
+  clip-path: circle(20% at 50% 50%);
+  transition: clip-path 0.5s ease-in-out;
+}
+.work3:hover{
+  clip-path: circle(75%);
+}
+.work4{
+  background: url(img/art.jpg) no-repeat center center/cover;
+  clip-path: circle(20% at 50% 50%);
+  transition: clip-path 0.5s ease-in-out;
+}
+.work4:hover{
+  clip-path: circle(75%);
+}
+.bg{
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+  border-radius: 15px;
+  border: 0px;
+}
+
+
+/*                                        section form */
+.contact{
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(189, 189, 189);
+}
+.contactleft{
+  margin-left: 50px;
+}
+textarea {
+  resize: none;
+}
+.name{
+  display: flex;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+}
+.inputdim{
+  height: 30px;
+  width: 400px;
+  margin-bottom: 15px;
+}
+.inputdim1{
+  height: 30px;
+  width: 805px;
+  margin-bottom: 15px;
+}
+label{
+  margin-bottom: 5px;
+}
+.btn{
+  margin-top: 10px;
+  padding: 10px;
+  width: 200px;
+  height: 50px;
+  font-size: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 0px;
+  border-radius: 8px;
+}
+.font{
+  font-family: cursive;
+  justify-content: flex-start;
+}
+.contactrup{
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.Social img{
+  height: 40px;
+  margin: 0px;
+  padding: 0px;
+}
+.contactrdown{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+.contactright{
+  margin-right: 150px;
+}
+.foot{
+  margin-top: 15px;
+  margin-left: 16px;
+}
